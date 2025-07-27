@@ -1,6 +1,13 @@
 @import url("fontawesome-all.min.css");
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,400italic");
 
+@font-face {
+  font-family: 'MinePolski';
+  src: url('MinePolski.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 /*
 	Photon by HTML5 UP
 	html5up.net | @ajlkn
@@ -99,7 +106,7 @@ input, select, textarea {
 
 	body, input, select, textarea {
 		color: #666;
-		font-family: "Source Sans Pro", Helvetica, sans-serif;
+		font-family: "MinePolski", "Source Sans Pro", Helvetica, sans-serif;
 		font-size: 16pt;
 		font-weight: 300;
 		line-height: 1.65em;
